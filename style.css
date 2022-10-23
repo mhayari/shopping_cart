@@ -1,0 +1,36 @@
+.container{
+    border: 1px solid black;
+    width: 800px;
+    height:100px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fa-heart{
+    transform: translateY(-40px);
+    cursor: pointer;
+}
+.fa-trash{
+    cursor: pointer;
+}
+.fa-trash:hover{
+    color:gray;
+    font-size: 20px;
+}
+img{
+    height:50%;
+    width:50%
+}
+
+
+.footer{
+    position: fixed;
+    display:flex;
+    justify-content: space-between;
+    width:800px;
+left: 280px;
+top:400px ;}
